@@ -1,0 +1,50 @@
+.ToDoList  {
+    position: relative;
+    width: 500px; 
+    height: 500px;
+    background-color: #ec927e; 
+    border: 1px solid black; 
+    border-color: #ffe3dd;
+    border-radius: 35px; 
+}
+.addIcon {
+    position: absolute;
+    right: 100px;
+    bottom: 30px; 
+    width: 20px; 
+  
+}
+h1 {
+    position: absolute;
+    bottom: 30px; right: 100px;
+    font-size: 15px; 
+    margin-bottom: 30px; 
+}
+
+.inputForm {
+
+position: absolute;
+top: 300px;
+left: calc(50vw - 650px);
+height: 80px;
+width: 400px;
+padding: 0;
+border-radius: 0;
+background-color: transparent;
+color: white;
+border: none;
+outline: none;
+border-bottom: 2px solid #ffffff;
+font-size: 15px;
+letter-spacing: .5rem;
+
+
+}
+
+.ToDoItems {
+    padding: 10px; 
+    font-size: 16px; 
+    border: 2px solid #fff; 
+    width: 165px; 
+    
+}

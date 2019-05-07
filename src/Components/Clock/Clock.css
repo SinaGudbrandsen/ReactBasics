@@ -1,0 +1,13 @@
+.Clock { 
+    font-size: 120px; 
+    color: #f1a292;
+    margin-left: 700px; 
+    margin-bottom: 10px; 
+
+}
+.Timer {
+    font-size: 40px; 
+    color: #f1a292;
+    margin-left: 945px; 
+    margin-top: 10px; 
+}
