@@ -1,5 +1,4 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
 import add from '../../img/1x/add.png'
 import './todo.css'
 import ToDoItems from './ToDoItems'
@@ -44,31 +43,28 @@ class ToDoList extends React.Component {
             items: filteredItems
         })
     }
-
-/*
-    handleChange(event) {   
-
-        const {name, value, type, checked} = event.target
-        type === "checkbox" ? this.setState({ [name]: checked }) : this.setState({ [name]: value })
-    }
-
-*/
     render() {
 
         return (
         
-            <div className="ToDoList">
-                    <form onSubmit={this.addItem}> 
-                        <input ref={(a) => this._inputElement = a}
+            <div className="toDo" >
+                <div className="ToDoList">
+
+                <form onSubmit={this.addItem}> 
+                    <input className="inputForm"
+                        ref={(a) => this._inputElement = a}
                         placeholder="enter task"/>
-                        <button type="submit">Legg til</button>
-                    </form>
+                    <button type="submit">Legg til</button>
+                </form>
+                </div>
 
-            <ToDoItems entries={this.state.items}
-                        delete={this.deleteItem}/>   
-
-                  
-            </div>    
+                <div>
+                    <ToDoItems 
+                    entries={this.state.items}
+                    delete={this.deleteItem}/> 
+                </div>  
+            </div>
+               
 
         )
     }

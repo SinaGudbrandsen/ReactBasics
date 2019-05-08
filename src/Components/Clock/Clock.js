@@ -1,6 +1,6 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
 import "./Clock.css"
+import '../../../src/index.css'
 
 
 
@@ -37,7 +37,7 @@ class Clock extends React.Component {
 
     render() {
         return(
-            <div>
+            <div className ="ClockComponent">
             <h1 className="Clock"> {this.state.day} / {this.state.month} / {this.state.year} </h1>
             <h1 className="Timer"> Klokken er  {this.state.klokkeslett.toLocaleTimeString()}</h1>
             </div>
