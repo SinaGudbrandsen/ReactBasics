@@ -1,5 +1,4 @@
 import React from 'react'
-import add from '../../img/1x/add.png'
 import './todo.css'
 import ToDoItems from './ToDoItems'
 
