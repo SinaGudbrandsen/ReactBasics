@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/ReactBasics/public/min-app.js/static/css/main.bcdfca96.chunk.css",
-    "main.js": "/ReactBasics/public/min-app.js/static/js/main.cb66605a.chunk.js",
-    "main.js.map": "/ReactBasics/public/min-app.js/static/js/main.cb66605a.chunk.js.map",
-    "runtime~main.js": "/ReactBasics/public/min-app.js/static/js/runtime~main.5358b2f5.js",
-    "runtime~main.js.map": "/ReactBasics/public/min-app.js/static/js/runtime~main.5358b2f5.js.map",
-    "static/js/2.0a422d87.chunk.js": "/ReactBasics/public/min-app.js/static/js/2.0a422d87.chunk.js",
-    "static/js/2.0a422d87.chunk.js.map": "/ReactBasics/public/min-app.js/static/js/2.0a422d87.chunk.js.map",
-    "index.html": "/ReactBasics/public/min-app.js/index.html",
-    "precache-manifest.b09575e10c96cb72363d642381bd2fb4.js": "/ReactBasics/public/min-app.js/precache-manifest.b09575e10c96cb72363d642381bd2fb4.js",
-    "service-worker.js": "/ReactBasics/public/min-app.js/service-worker.js",
-    "static/css/main.bcdfca96.chunk.css.map": "/ReactBasics/public/min-app.js/static/css/main.bcdfca96.chunk.css.map"
+    "main.css": "/ReactBasics/static/css/main.bcdfca96.chunk.css",
+    "main.js": "/ReactBasics/static/js/main.ab324444.chunk.js",
+    "main.js.map": "/ReactBasics/static/js/main.ab324444.chunk.js.map",
+    "runtime~main.js": "/ReactBasics/static/js/runtime~main.03578886.js",
+    "runtime~main.js.map": "/ReactBasics/static/js/runtime~main.03578886.js.map",
+    "static/js/2.156a2f17.chunk.js": "/ReactBasics/static/js/2.156a2f17.chunk.js",
+    "static/js/2.156a2f17.chunk.js.map": "/ReactBasics/static/js/2.156a2f17.chunk.js.map",
+    "index.html": "/ReactBasics/index.html",
+    "precache-manifest.5e06d8c39198b41d337048ec91e9ee95.js": "/ReactBasics/precache-manifest.5e06d8c39198b41d337048ec91e9ee95.js",
+    "service-worker.js": "/ReactBasics/service-worker.js",
+    "static/css/main.bcdfca96.chunk.css.map": "/ReactBasics/static/css/main.bcdfca96.chunk.css.map"
   }
 }
