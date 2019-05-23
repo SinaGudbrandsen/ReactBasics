@@ -1,23 +1,35 @@
 .ToDoList  {
     position: relative;
-    top: 300px; 
-    width: 450px; 
-    height: 100px;
-    /*background-color: #ec927e; */
+    top: 240px; 
+    width: 800px; 
+    height: 53px;
     border: 1px solid black; 
     border-color: #ffe3dd;
     border-radius: 20px;   
-    background-color: #ec927e;
+    background-color: #4e36ff;
+    font-family: "avenir book"; 
+}
+.toDo {
+    position: absolute; 
+    left: 72px; 
+    top: 480px; 
+    background-color: #fff; 
+    border-radius: 13px; 
+    width: 800px; 
+    height: 250px; 
 }
 .ToDoList button {
-    width: 80px; 
+    background-image: url(../../img/1x/add.png);
+    background-size: 20px 20px; 
+    background-repeat: no-repeat;
+    width: 30px; 
     height: 40px; 
     position: absolute; 
-    bottom: 30px; 
-    right: 30px;
-    background-color: rgb(255, 255, 255);
+    bottom: -5px; 
+    right: 250px;
+    background-color:transparent;
+    color: #FDE2EB; 
     border: none;
-    color: rgb(87, 87, 87);
     padding: 10px 15px;
     text-align: center;
     text-decoration: none;
@@ -33,47 +45,51 @@
     width: 20px; 
 }
 .inputForm {
-    
-    position: absolute; 
-    bottom: 30px; 
-    left: 20px; 
-    height: 40px;
-    width: 300px;
+    position: absolute;  
+    height: 53px;
+    width: 700px;
     padding: 0;
     border-radius: 0;
     background-color: transparent;
-    color: white;
+    color: #FDE2eb;
     border: none;
     outline: none;
-    border-bottom: 2px solid #ffffff;
-    font-size: 15px;
-
+    font-size: 13px;
+    font-weight: 600; 
     text-align: center;
 }
-
-
-::placeholder { /* Most modern browsers support this now. */
-    color:    rgb(255, 255, 255);
- }
-
-.ToDoItems {
-    padding: 10px; 
-    font-size: 16px; 
-    border: 2px solid #fff; 
-    width: 165px; 
-    
+.inputForm placeholder {
+    color: #FDE2eb;
 }
-.theList ul {
+
+.theList {
     position: absolute;
-    top: 0px; 
-    width: 100px; 
-    height: 100px;
+    top: 10px; 
+    left: 0px; 
+    width: 800px !important;
+    height: 200px; 
+    overflow: hidden; 
 }
+
 .theList li {
     list-style: none; 
-    padding: 10px; 
-    border: 2px solid #ffe3dd; 
-    width: 200px; 
+    width: 297px; 
+    height: 53px;
+    background-color: #FDE2EB;
+    border-radius: 13px; 
+    text-align: center;  
+    margin: 10px; 
+    font-size: 13px; 
+    font-weight: 600; 
+    color: #4e36ff;
 }
 
+
+.toDo h1 { 
+    position: absolute;
+    top: -30px;     
+    font-size: 13px; 
+    font-weight: 600; 
+    color: #4e36ff; 
+}
 

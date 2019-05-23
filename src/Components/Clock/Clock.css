@@ -3,19 +3,39 @@
     width: 800px; 
     height: 300px;
     right:  0px; 
+    top: -30px; 
  
 }
+.h1Date {
+    position: absolute;
+    top: 50px;     
+    right: 100px;
+    font-size: 13px; 
+    font-weight: 600; 
+    color: #4e36ff; 
+}
+
+.h1Clock {
+    position: absolute;
+    top: 160px;     
+    right: 100px;
+    font-size: 13px; 
+    font-weight: 600; 
+    color: #4e36ff; 
+}
+
 .Clock { 
     position: absolute;
-    font-size: 120px; 
-    color: #f1a292;
+    font-size: 100px; 
+    color: rgb(0, 0, 0);
     right:  100px; 
+    top: -10px; 
 }
 .Timer {
     position: absolute;
-    font-size: 40px; 
-    color: #f1a292;
+    font-size: 50px; 
+    color: rgb(0, 0, 0);
     right:  100px; 
-    top: 200px; 
+    top: 140px; 
  
 }

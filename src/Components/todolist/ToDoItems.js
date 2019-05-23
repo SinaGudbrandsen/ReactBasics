@@ -10,8 +10,10 @@ class ToDoItems extends Component {
 
     }
     createTasks(item) {
+
         return <li onClick= {() => this.delete(item.key)}
         key={item.key}>{item.text}</li>
+
     }
 
     delete(key) {
@@ -22,8 +24,9 @@ class ToDoItems extends Component {
         var todoEntries = this.props.entries
         var listItems = todoEntries.map(this.createTasks)
 
+
         return (
-            <ul className="theList">
+            <ul className="theList" style={{width: '400px'}}>
                 {listItems}
             </ul>
         )

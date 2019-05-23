@@ -11,8 +11,8 @@ class NotesElement extends React.Component {
         }
 
         this.addNotes = this.addNotes.bind(this)
+        this.deleteItem = this.deleteItem.bind(this)
     }
-
 
 
 addNotes(e) {
@@ -33,17 +33,31 @@ addNotes(e) {
     e.preventDefault()  // do not reload
 }    
 
+deleteItem(key) {
+    var filteredItems = this.state.notes.filter(function (notes){
+        return (notes.key !== key)
+    })
+    this.setState({
+        notes: filteredItems
+    })
+
+}
+
+
 render() {
     return(
         <div className="NotesStyle">
-        <div>
+        <h1>Todays notes</h1>
+            <div className="textAreaForm">
                 <form onSubmit = {this.addNotes}>    
                     <input ref={(a) => this._inputElement = a}
-                    className="NotesTextArea" type="textarea"></input>
-                    <button>Legg til notat </button>
+                    className="NotesTextArea" type="textarea" 
+                    placeholder="Legg til notat"></input>
+                    <button></button>
                 </form>
-        </div>
-        <Notes entries={this.state.notes}/> 
+            </div>
+        <Notes entries={this.state.notes}
+         delete={this.deleteItem}/> 
         </div>
     )
   } 

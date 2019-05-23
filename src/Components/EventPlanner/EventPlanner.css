@@ -1,0 +1,263 @@
+.eventPlannerComponent {
+    position: absolute;
+    top: 170px; 
+    left: 72px; 
+    width: 800px; 
+    height: 240px;
+    background-color: #fff; 
+    border-radius: 13px; 
+
+}
+.h1Planner {
+    position: absolute;
+    top: -30px;     
+    font-size: 13px; 
+    font-weight: 600; 
+    color: #4e36ff; 
+}
+
+.timeLine {
+    position: absolute;
+    top: 220px; 
+    width: 800px; 
+    height: 53px;
+    background-color: #4e36ff; 
+    border-radius: 13px; 
+
+}
+.hours {
+    margin-top: 24px; 
+    width: 780px; 
+    font-size: 13px; 
+    color: #fff; 
+    text-align: center; 
+    word-spacing: 1.1rem;  
+}
+
+.seperator {
+    position: absolute;
+    top: 16px;
+    left: 30px; 
+    width: 720px; 
+    height: 1px; 
+    background-color: #fff; 
+}
+
+.timeSlider{
+    position: absolute;
+    top: 10px; 
+    width: 1px; 
+    height: 200px; 
+    background-color: #4e36ff; 
+}
+/*
+
+.addTaskButton {
+    background-color: transparent; 
+    border: transparent; 
+    z-index: 2;
+    position: absolute;
+    top: 20px; 
+    right: 20px; 
+    width: 100px; 
+    height: 40px;
+}
+
+.addTaskButton p  {
+position: absolute;
+top: 5px;  
+right: 30px;     
+font-size: 13px; 
+font-weight: 600; 
+color: #4e36ff;
+}
+
+.addButton {
+    position: absolute;
+    top: 20px; 
+    right: 2px;
+}
+
+.addEventWindow {
+    z-index: 3;
+    position: absolute;
+    top: 200px; 
+    right: 400px; 
+    width: 200px; 
+    height: 200px;
+    border-radius: 13px; 
+    background-color: #fff; 
+}
+
+.addEventWindow form {
+    width: 200px; 
+    height: 100px;
+}
+
+
+.addEventWindow input {
+    z-index: 2;
+    border: none; 
+    position: absolute;
+    top: 10px; 
+    left: 20px; 
+    width: 150px; 
+    height: 50px; 
+    font-size: 13px; 
+    font-weight: 600; 
+    color: #4e36ff;
+    outline: none;
+    border-bottom: .5px solid black; 
+}
+
+
+ .saveEventButton {
+    position: absolute;
+    top: 160px; 
+    left: 40px; 
+    width: 120px; 
+    height: 30px;
+    background-color: #4e36ff; 
+    border: none; 
+    border-radius: 13px; 
+    color: #fff;
+    font-size: 13px; 
+ }
+*/
+
+.addEventWindow {
+    z-index: 3;
+    position: absolute;
+    top: 220px; 
+    right: 0px; 
+    width: 500px; 
+    height: 50px;
+    border-radius: 13px; 
+    background-color: transparent; 
+}
+
+.addEventWindow form {
+    width: 200px; 
+    height: 100px;
+    background: transparent; 
+}
+
+.addEventWindow input {
+    z-index: 2;
+    border: none; 
+    position: absolute;
+    top: 10px; 
+    left: -180px; 
+    width: 120px; 
+    height: 30px; 
+    font-size: 13px; 
+    background-color: transparent; 
+    font-weight: 600; 
+    color: #FDE2EB;
+    outline: none;
+
+}
+::placeholder {
+    color: #FDE2EB;
+}
+ .saveEventButton {
+    position: absolute;
+    top: 12px; 
+    left: 280px; 
+    width: 100px; 
+    height: 30px;
+    background-color: #FDE2EB; 
+    border: none; 
+    border-radius: 13px; 
+    color: #4e36ff;
+    font-size: 13px; 
+    font-weight: 600; 
+ }
+ .h1Start {
+     position: absolute;
+     top: 10px; 
+     left: 0px;
+     font-size: 13px; 
+     font-weight: 600; 
+     color: #FDE2EB;
+ }
+ .h1Ends {
+    position: absolute;
+    top: 10px; 
+    left: 140px;
+    font-size: 13px; 
+    font-weight: 600; 
+    color: #FDE2EB;
+
+ }
+ .selectStart  {
+     position: absolute;
+     top: 8px; 
+     left:50px; 
+    margin: 10px; 
+ }
+ .selectEnd{
+    position: absolute;
+    top: 8px; 
+    left: 190px; 
+     margin: 10px; 
+ }
+
+ .Event {
+    position: absolute;
+    top: 20px; 
+    left: 20px; 
+    font-size: 13px; 
+    font-weight: 600; 
+    color: #4e36ff;
+ }
+
+ .eventItem {
+    position: absolute;
+    left: 50px; 
+    top: 30px; 
+    background-color: #FDE2EB; 
+    padding-top: 50px;
+    padding-left: 30px; 
+    padding-right: 30px; 
+    width: 70px; 
+    height: 100px;
+    list-style: none; 
+    border-radius: 13px; 
+    font-weight: 600; 
+    color: #4e36ff;
+    text-align: center;
+ }
+
+ .row {
+    width: 800px; 
+    height: 240px;
+
+ }
+
+ #column {
+    background-color: transparent; 
+    float: left;
+    width: 7.4%;
+    padding: 10px;
+    height: 190px;
+ }
+
+
+.transparentColumn {
+        background-color: transparent; 
+        float: left;
+        width: 7.4%;
+        padding: 10px;
+        height: 190px;
+}
+.coloredColumn {
+    background-color: #FDE2EB; 
+    float: left;
+    width: 7.4%;
+    padding: 10px;
+    height: 190px;
+}
+
+ 
+

@@ -10,7 +10,10 @@ class Notes extends React.Component {
     }
 
     createNotes(notes) {
-            return <p key={notes.key}>{notes.text}</p>
+            return <p  onClick= {() => this.delete(notes.key)} key={notes.key}>{notes.text} </p>
+    }
+      delete(key) {
+        this.props.delete(key)
     }
 
     render() {
@@ -18,7 +21,7 @@ class Notes extends React.Component {
         var noteItems = noteEntries.map(this.createNotes)
 
         return (
-            <p className="theList">
+            <p className="theNotes">
                 {noteItems}
            </p>
            )

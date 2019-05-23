@@ -15,8 +15,8 @@ class ToDoList extends React.Component {
         this.deleteItem = this.deleteItem.bind(this)
     }
 
-
     addItem(e) {
+
         if (this._inputElement.value !== "") {
             var newItem = {
                 text: this._inputElement.value,
@@ -29,6 +29,7 @@ class ToDoList extends React.Component {
             }
         })    
         }   
+    
         this._inputElement.value = ""  
         console.log(this.state.items) 
         e.preventDefault()  // do not reload
@@ -41,19 +42,23 @@ class ToDoList extends React.Component {
         this.setState({
             items: filteredItems
         })
+
     }
     render() {
+   
 
         return (
         
             <div className="toDo" >
+                <h1>Todays to dos</h1>
                 <div className="ToDoList">
 
                 <form onSubmit={this.addItem}> 
                     <input className="inputForm"
-                        ref={(a) => this._inputElement = a}
-                        placeholder="enter task"/>
-                    <button type="submit">Legg til</button>
+                     placeholder="Add a task"
+                        ref={(a) => this._inputElement = a}/>
+                       
+                    <button type="submit"></button>
                 </form>
                 </div>
 
